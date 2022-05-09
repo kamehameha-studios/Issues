@@ -1,0 +1,27 @@
+/* See https://hankchizljaw.com/wrote/a-modern-css-reset/ */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Make images easier to work with */
+img.a {
+  max-width: 100%;
+  display: block;
+  visibility: visible;
+}
+
+form,
+header {
+  font: 20, Arial;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+select {
+  font: inherit;
+}
+
