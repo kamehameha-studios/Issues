@@ -24,6 +24,11 @@ body:
       description: Any other suggestions?
     validations:
       required: false
+  - type: input
+    attributes:
+      label: What repo do you want these changes to be created?
+      description: Only repos in [Kamehameha Studios](https://github.com/kamehameha-studios) are allowed.
+      placeholder: Issues, kamehameha-studios.github.io, etc.
   - type: checkboxes
     id: terms
     attributes:
