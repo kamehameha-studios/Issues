@@ -27,6 +27,11 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+  - type: input
+    attributes:
+      label: What repo are you seeing the problem in?
+      desciption: Only repos in [Kamehameha Studios](https://github.com/kamehameha-studios) are allowed.
+      placeholder: Issues, kamehameha-studios.github.io, etc.
   - type: textarea
     id: logs
     attributes:
